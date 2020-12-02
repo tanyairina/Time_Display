@@ -1,0 +1,21 @@
+#background {
+    width: 780px;
+    height: 80px;
+    display: inline-block;
+    background-color: rgb(127, 172, 255);
+}
+#background2 {
+    width: 780px;
+    height: 80px;
+    display: inline-block;
+    background-color: rgb(184, 139, 152);
+}
+h1 {
+    width: 780px;
+    text-align: center;
+    color: rgb(65, 128, 153);
+}
+h2, h3 {
+    width: 780px;
+    color: rgb(14, 77, 136);
+}

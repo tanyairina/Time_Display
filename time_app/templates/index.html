@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Display</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">    
+    <script src="{% static 'js/script.js' %}"></script>
+</head>
+<body>
+    <div id = "background">
+    <h1>Time Display</h1>
+    </div>
+    <h2>Option #1:  " / "</h2>
+    <h2>Option #2:  " /time2 "</h2>
+    <div id = "background2">
+    <h1>Time: {{time}}</h1>
+    </div>
+</body>
+</html>
